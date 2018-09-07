@@ -6,4 +6,4 @@ _Basefind_, a rewrite of [@mncoppola's](https://twitter.com/mncoppola) python ve
 
 _Firmware\_verification_ does exactly what it says: It shows how firmware updates for Withings' Activité are being verified. Perhaps you have noticed that this verification is not really all that complicated. That is why this little tool also allows you to _resign_ firmware images you modified. Beware though, the tracker might just accept any firmware with a valid header, so make sure it won't brick your device.
 
-This work is part of a university project. Stay tuned for the paper describing the results!
+The paper ["Attacks on Fitness Trackers Revisited: A Case-Study of Unfit Firmware Security"](https://arxiv.org/pdf/1604.03313.pdf) provides more detailed background information and documents how to install resigned firmware images onto real devices.
